@@ -1,0 +1,317 @@
+/*
+Theme Name: ki-heart
+Theme URI: http://i-b-c.jp/
+Description: 木ハートのサイト
+Version: 1.1
+Author: Tsuge
+Author URI: http://www.cajon.co.jp/
+*/
+#services{
+ background-image: -moz-linear-gradient(left top, #664320,
+            #fff 60%,
+            #664320);/* Firefox用 */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            from(#664320),
+            color-stop(0.35, #e6dacf),
+            color-stop(0.5, #fff),
+            color-stop(0.65, #e6dacf),
+            to(#664320));/* Safari,Google Chrome用 */
+  width: 100%;
+  padding: 100px 100px;
+  padding: 80px 100px;
+  padding-bottom: 100px;
+}
+
+#services h1{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  padding-left: 30px;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 26px !important;
+  font-weight: 600;
+  float: left;
+  text-shadow: 2px 3px 5px #fff;
+}
+
+#area{
+ background-image: -moz-linear-gradient(left top, #664320,
+            #fff 50%,
+            #664320);/* Firefox用 */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            from(#664320),
+            color-stop(0.5, #fff),
+            to(#664320));/* Safari,Google Chrome用 */
+  width: 100%;
+  padding: 100px 100px;
+}
+
+#area h1{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  padding-left: 30px;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 26px !important;
+  font-weight: 600;
+  float: left;
+  text-shadow: 2px 3px 5px #fff;
+}
+
+#blog{
+ background-image: -moz-linear-gradient(left top, #664320,
+            #fff 50%,
+            #664320);/* Firefox用 */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            from(#664320),
+            color-stop(0.5, #fff),
+            to(#664320));/* Safari,Google Chrome用 */
+  width: 100%;
+  padding: 100px 100px;
+}
+
+#blog h1{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  padding-left: 30px;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 26px !important;
+  font-weight: 600;
+  float: left;
+  text-shadow: 2px 3px 5px #fff;
+}
+
+#questions{
+ background-image: -moz-linear-gradient(left top, #664320,
+            #fff 50%,
+            #664320);/* Firefox用 */
+    background-image: -webkit-gradient(linear, left top, left bottom,
+            from(#664320),
+            color-stop(0.5, #fff),
+            to(#664320));/* Safari,Google Chrome用 */
+  width: 100%;
+  padding: 100px 100px;
+}
+
+#questions h1{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  padding-left: 30px;
+  color: #000000;
+  margin: 0 auto;
+  font-size: 26px !important;
+  font-weight: 600;
+  float: left;
+  text-shadow: 2px 3px 5px #fff;
+}
+
+
+main{
+  
+    background-image: url("./img1/plant1/PAK86_miagerebamidori1226.jpg");
+    background-size: cover;
+}
+
+.container.white{
+  background-color: rgba(255,255,255,0.9);
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.sentei{
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.sentei h3{
+  margin: 0 auto;
+  text-align: center;
+  background-color: #664320;
+  border-radius: 6px;
+  color: #fff;
+  padding: 10px 30px;
+  margin-bottom: 60px;
+  width: 160px;
+}
+
+.sentei p{
+  text-align: center;
+  font-weight: 600;
+  margin: 60px 0px;
+}
+.sentei table{
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.sentei.bassai{
+  clear: both;
+}
+
+.brown{
+  width: 10px;
+  background-color: #8ae68a;
+  height: 60px;
+  float: left;
+}
+
+main th{
+  border: 2px solid #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px;
+  background-color: #c8fac8;
+}
+
+main td{
+  border: 2px solid #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.wide{
+  margin: 0 auto;
+  height: 130px;
+  width: 96%;
+  padding-left: 10%;
+}
+
+.big{
+  height: 150px;
+  margin: 0 auto;
+  padding-left: 30%;
+  padding-right: 20%
+}
+
+.sentei.gomi{
+  float: left;
+  clear: both;
+}
+.sentei.gomi img{
+  height: 180px;
+  padding-left: 34%;
+  padding-right: 18%
+}
+
+main span{
+  color: #ff0000;
+}
+
+main img{
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 10%;
+}
+
+.sentence{
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  background-color: #8ae68a;
+  color: #000000;
+  padding: 20px 0px;
+}
+
+.sentence h2{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+.sentence h6{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.sentence p{
+  text-align: center;
+}
+
+.sentence span{
+  color: #ff0000;
+}
+
+@media (min-width: 838px){
+.container {
+    width: 80%;
+ }
+}
+
+@media (min-width: 400px) and (max-width: 838px){
+.container {
+    width: 90%;
+  }
+#services{
+  padding: 100px 20px;
+}
+#services h1{
+  font-size: 20px !important;
+  float: left;
+  padding-left: 20px;
+  width: 320px;
+ }
+
+ #area{
+  padding: 100px 20px;
+}
+#area h1{
+  font-size: 20px !important;
+  float: left;
+  padding-left: 20px;
+  width: 320px;
+ }
+
+ #questions{
+  padding: 100px 20px;
+}
+#questions h1{
+  font-size: 20px !important;
+  float: left;
+  padding-left: 20px;
+  width: 320px;
+  margin-top: 10px;
+ }
+
+ #blog{
+  padding: 100px 20px;
+}
+#blog h1{
+  font-size: 20px !important;
+  float: left;
+  padding-left: 20px;
+  width: 320px;
+  margin-top: 10px;
+ }
+
+
+.brown{
+  height: 30px;
+  margin-top: 20px;
+ }
+.sentence{
+  width: 90%;
+}
+.sentence h2{
+  font-size: 20px;
+}
+
+.sentence h6{
+  font-size: 16px;
+}
+
+.sentence p{
+  font-size: 14px;
+}
+
+.last-page li{
+  font-size: 10px;
+}
+
+.last-page ul{
+  width: 400px;
+}

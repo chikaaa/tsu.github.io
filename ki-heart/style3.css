@@ -1,0 +1,255 @@
+/*
+Theme Name: ki-heart
+Theme URI: http://i-b-c.jp/
+Description: 木ハートのサイト
+Version: 1.1
+Author: Tsuge
+Author URI: http://www.cajon.co.jp/
+*/
+header p{
+  color: #000000;
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 30px;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-shadow: 6px 6px 5px #664320;
+}
+header{
+  height: 80px;
+  background-image: url("./img1/plant1/mokume.jpg");
+  width: 100%;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 10;
+}
+
+
+.transparent{
+    background-color:   rgba(255,255,255,0.2);
+    height: 80px;
+}
+
+header img{
+  height: 60px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+body{
+  text-align: center;
+}
+main p{
+  font-weight: 600;
+}
+.intro{
+  color: #fff;
+  background-color: rgba(42,140,42,0.6);
+  padding: 10px 0px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main{
+  clear: both;
+  background-image: url("./img1/plant1/active1.png");
+  background-color:   rgba(255,255,255,0.6);
+  background-size: cover;
+  padding-top: 110px;
+}
+
+main table{
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+main th{
+  padding: 30px 30px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+main td{
+  padding: 30px 30px;
+}
+
+.under{
+  border-bottom: 1px dotted #3d993d;
+}
+
+.under2{
+  border-bottom: 1px dotted #664320;
+}
+
+.chushaku{
+  text-align: left;
+  padding-top: 5px;
+}
+
+.btn-group{
+  float: left;
+  display: inline;
+}
+
+.privacy{
+  margin: 0 auto;
+  width: 86%;
+  margin-top: 60px;
+}
+.privacy td{
+  width: 75%;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+.privacy th{
+  width: 25%;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top: 0px;
+}
+
+.privacy tr{
+  padding: 20px 0px;
+}
+.tel{
+  display: inline;
+  float: left;
+}
+
+.privacy span{
+  background-color: #e60000;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-size: 10px;
+}
+
+.line{
+  float: left;
+}
+
+.form-control.mail{
+  float: left;
+  clear: both;
+}
+
+.mail{
+  float: left;
+}
+
+.form-control.time{
+  width:80%;
+}
+
+.form-control.prefecture{
+  width: 80%;
+}
+
+.form-control.sei{
+  width: 60%;
+}
+
+.form-control.mei{
+  width: 60%;
+  clear: both;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.form-control.tel{
+  width: 50%;
+}
+
+.form-control.fax{
+  width: 50%;
+}
+
+.form-control.email{
+  width: 70%;
+}
+
+.col-sm-10.email{
+  padding: 0;
+}
+
+
+
+.time{
+  width: 60px;
+  float: left;
+}
+
+.timeee2{
+  clear: both;
+}
+
+.btn.btn-default{
+  margin: 30px 20px;
+}
+
+
+.form-control{
+  border-radius: 0;
+  clear: both;
+}
+
+@media(max-width:630px) {
+
+  header p{
+    font-size: 20px;
+  }
+  .intro{
+    width: 86%;
+  }
+  .privacy th{
+    width: 40%;
+    padding-left: 10px;
+  }
+
+  .privacy td{
+    padding-left: 0px;
+  }
+  
+.form-control.time{
+  width:100%;
+}
+
+.form-control.prefecture{
+  width: 100%;
+}
+
+.form-control.sei{
+  width: 100%;
+}
+
+.form-control.mei{
+  width: 100%;
+  clear: both;
+}
+
+.form-group{
+  width: 100%;
+}
+
+.form-control.tel{
+  width: 100%;
+}
+
+.form-control.fax{
+  width: 100%;
+}
+
+.form-control.email{
+  width: 100%;
+}
+
+
+}

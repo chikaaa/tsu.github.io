@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <link rel="stylesheet" href="style2.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<header>
+    <div class="transparent">
+      <a href="./index.html">
+        <img src="./img1/plant1/logo.png" alt="会社「木ハート」のロゴ"></a>
+        <p>お見積もりフォーム</p>
+    </div>
+</header>
+<main>
+  <div class="container">
+    <p class="intro">この度は庭キレイウェブサイトにお越しいただき、誠に有難うございました。<br>
+    お見積もりに関しましては、下記のフォームにご記入くださいませ。</p>
+
+  <form action="./postmail/postmail.cgi" method="post">
+    <table class="mitumori">
+      <tbody>
+      <tr>
+          <th><span>Q１　剪定</span><br>
+            お見積もりをご希望のお客様は、<br>下記項目を選択してください</th>
+          <td>
+                <select class="form-control" name="剪定">
+                  <option>選択してください</option>
+                  <option value="低木(0.1m〜2.99m)">低木(0.1m〜2.99m)</option>
+                  <option value="中木(3m〜4.99m)">中木(3m〜4.99m)</option>
+                  <option value="高木(5m〜10m)">高木(5m〜10m)</option>
+                </select>
+          </td>
+        </tr>
+        <tr class="under">
+           <td>
+           </td>
+          <td class="chushaku">
+            下記は目安金額になります。<br>
+            低木(0.1m〜2.99m)：3,000円　中木(3m〜4.99m)：5,000円<br>
+            高木(5m〜10m)：8,000円<br>
+          </td>
+      </tr>
+      <tr>
+          <th><span>Q２　生垣</span><br>
+            お見積もりをご希望のお客様は、<br>下記項目を選択してください</th>
+          <td>
+                <select class="form-control" name="生垣">
+                  <option>選択してください</option>
+                  <option value="0m 〜 2.99m">0m 〜 2.99m</option>
+                  <option value="3m 〜 5.99m">3m 〜 5.99m</option>
+                  <option value="6m 〜 8.99m">6m 〜 8.99m</option>
+                  <option value="9m 〜 11.99m">9m 〜 11.99m</option>
+                  <option value="12m  〜  14.99m">12m  〜  14.99m</option>
+                  <option value="15m  〜  17.99m">15m  〜  17.99m</option>
+                </select>
+          </td>
+        </tr>
+        <tr class="under">
+           <td>
+           </td>
+          <td class="chushaku">
+            下記は目安金額になります<br>
+            0m 〜 2.99m：5,000円　3m 〜 5.99m：10,000円<br>
+            6m 〜 8.99m：20,000円　9m 〜 11.99m：40,000円<br>
+            12m  〜  14.99m：80,000円　15m  〜  17.99m：120,000円<br>
+
+          </td>
+      </tr>
+      <tr>
+          <th><span>Q３　伐採</span><br>
+            お見積もりをご希望のお客様は、<br>下記項目を選択してください</th>
+          <td>
+             <select class="form-control" name="伐採">
+                  <option>選択してください</option>
+                  <option value="低木(0.1m〜2.99m)">低木(0.1m〜2.99m)</option>
+                  <option value="中木(3m〜5.99m)">中木(3m〜5.99m)</option>
+                  <option value="高木(7m〜10m)">高木(7m〜10m)</option>
+            </select>
+          </td>
+      </tr>
+      <tr class="under">
+        <td>
+        </td>
+          <td class="chushaku">
+            下記は目安金額になります。<br>
+            低木(0m 〜 2.99m)：5,000円　中木(3m 〜 6.99m)：10,000円<br>
+            高木(7m 〜 10m)：15,000円
+          </td>
+      </tr>
+      <tr>
+          <th><span>Q４　草刈り</span><br>
+            お見積もりをご希望のお客様は、<br>下記項目を選択してください</th>
+          <td>
+             <select class="form-control" name="草刈り">
+                  <option>選択してください</option>
+                  <option value="1坪">1坪</option>
+                  <option value="5坪">5坪</option>
+                  <option value="10坪">10坪</option>
+                  <option value="15坪">15坪</option>
+                  <option value="20坪">20坪</option>
+                  <option value="25坪">25坪</option>
+                  <option value="50坪">50坪</option>
+                </select>
+          </td>
+        </tr>
+        <tr>
+           <td>
+           </td>
+          <td class="chushaku">
+            下記は目安金額になります。<br>
+            1坪：1,200円　5坪：5,200円　10坪：10,200円　15坪：15,200円<br>
+            20坪：20,200円　25坪：25,200円　50坪：50,200円
+          </td>
+      </tr>
+     </tbody>
+    </table>
+
+    <table class="privacy">
+      <tbody>
+          <tr class="under2">
+          <th><span>必須</span><br>お名前</th>
+               <td  class="form-inline">
+                      <div class="form-group">
+                        <label for="exampleInputName1">姓</label>
+                        <input type="text" class="form-control sei" id="exampleInputName1" placeholder="山田" name="姓" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputName2">名</label>
+                        <input type="text" class="form-control mei" id="exampleInputName2" placeholder="太郎" name="名" required>
+                      </div>
+               </td>
+          </tr>
+          <tr class="under2">
+               <th><span>必須</span><br>フリガナ</th><br>
+                <td class="form-inline">
+                      <div class="form-group">
+                        <label for="exampleInputName3">セイ</label><br>
+                        <input type="text" class="form-control sei" id="exampleInputName3" placeholder="山田" name="セイ" required>
+                      </div>
+                      <br>
+                      <br>
+                      <div class="form-group">
+                        <label for="exampleInputName4">メイ</label><br>
+                        <input type="text" class="form-control mei" id="exampleInputName4" placeholder="太郎" name="メイ" required>
+                      </div>
+               </td>
+          </tr>
+           <tr class="under2">
+               <th><span>必須</span><br>ご住所</th>
+               <td class="form-inline">
+                    <div class="form-group">
+                        <label for="exampleInputName5" >郵便番号</label>
+                        <input type="text" class="form-control" id="exampleInputName5" placeholder="000-0000" name="郵便番号" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleInputName6">都道府県名</label>
+                    <select class="form-control prefecture" name="都道府県名" required>
+                      <option value>選択してください</option>
+                      <option value="北海道">北海道</option>
+                      <option value="青森県">青森県</option>
+                      <option value="秋田県">秋田県</option>
+                      <option value="岩手県">岩手県</option>
+                      <option value="宮城県">宮城県</option>
+                      <option value="山形県">山形県</option>
+                      <option value="福島県">福島県</option>
+                      <option value="新潟県">新潟県</option>
+                      <option value="福井県">福井県</option>
+                      <option value="山梨県">山梨県</option>
+                      <option value="富山県">富山県</option>
+                      <option value="石川県">石川県</option>
+                      <option value="長野県">長野県</option>
+                      <option value="群馬県">群馬県</option>
+                      <option value="埼玉県">埼玉県</option>
+                      <option value="栃木県">栃木県</option>
+                      <option value="千葉県">千葉県</option>
+                      <option value="茨城県">茨城県</option>
+                      <option value="東京県">東京県</option>
+                      <option value="神奈川県">神奈川県</option>
+                      <option value="岐阜県">岐阜県</option>
+                      <option value="愛知県">愛知県</option>
+                      <option value="三重県">三重県</option>
+                      <option value="静岡県">静岡県</option>
+                      <option value="滋賀県">滋賀県</option>
+                      <option value="大阪県">大阪県</option>
+                      <option value="京都県">京都県</option>
+                      <option value="奈良県">奈良県</option>
+                      <option value="兵庫県">兵庫県</option>
+                      <option value="和歌山県">和歌山県</option>
+                      <option value="鳥取県">鳥取県</option>
+                      <option value="岡山県">岡山県</option>
+                      <option value="島根県">島根県</option>
+                      <option value="広島県">広島県</option>
+                      <option value="山口県">山口県</option>
+                      <option value="香川県">香川県</option>
+                      <option value="徳島県">徳島県</option>
+                      <option value="愛媛県">愛媛県</option>
+                      <option value="高知県">高知県</option>
+                      <option value="福岡県">福岡県</option>
+                      <option value="大分県">大分県</option>
+                      <option value="佐賀県">佐賀県</option>
+                      <option value="長崎県">長崎県</option>
+                      <option value="熊本県">熊本県</option>
+                      <option value="宮崎県">宮崎県</option>
+                      <option value="鹿児島県">鹿児島県</option>
+                      <option value="沖縄県">沖縄県</option>
+                    </select>
+                  </div>
+                   <div class="form-inline">
+                          <div class="form-group">
+                            <label for="exampleInputName7">市町村番地</label>
+                            <input type="text" class="form-control " id="exampleInputName7" placeholder="◯◯市◯◯町1-1-1" name="市町村番地" required>
+                        </div>
+                    </div>
+                        <br>
+                        <br>
+                    <div class="form-inline">
+                          <div class="form-group">
+                            <label for="exampleInputName8">マンション・ビル名</label>
+                            <input type="text" class="form-control" id="exampleInputName8" placeholder="◯◯アパート101号室" name="マンション・ビル名">
+                    </div>
+                </td>
+            </tr>
+            <tr class="under2">
+               <th>電話番号</th>
+               <td> <div class="form-group">
+                        <input type="text" class="form-control tel" id="exampleInputName9" placeholder="000-0000-0000" name="電話番号">
+                    </div>
+                 </td>
+          </tr>
+          <tr class="under2">
+               <th>FAX番号</th>
+               <td> <div class="form-group">
+                        <input type="text" class="form-control fax" id="exampleInputName10" placeholder="000-0000-0000" name="FAX番号">
+                    </div>
+                 </td>
+          </tr>
+          <tr class="under2">
+            <th>メール<br>アドレス</th>
+            <td><div class="form-group">
+                    <div class="col-sm-10 email">
+                      <input type="email" class="form-control email" id="inputEmail3" placeholder="Email" name="メールアドレス">
+                    </div>
+                  </div>
+                <br>
+                <div class="form-group">
+                    <label for="inputEmail3" class=" control-label">確認用</label>
+                    <div class="col-sm-10 email">
+                      <input type="email" class="form-control email" id="inputEmail3" placeholder="Email" name="メールアドレス（確認用）">
+                    </div>
+                  </div>
+              </td>
+          </tr>
+          <tr class="under2">
+            <th>電話が可能な時間帯</th>
+            <td>
+              <div class="timeee1">
+                <p class="time">時から</p>
+                 <select class="form-control time" name="時から">
+                  <option>選択してください</option>
+                  <option value="9時から">9時から</option>
+                  <option value="10時から">10時から</option>
+                  <option value="11時から">11時から</option>
+                  <option value="12時から">12時から</option>
+                  <option value="13時から">13時から</option>
+                  <option value="14時から">14時から</option>
+                  <option value="15時から">15時から</option>
+                  <option value="16時から">16時から</option>
+                  <option value="17時から">17時から</option>
+                </select>
+              </div>
+              <div class="timeee2">
+                <p class="time"><br>時まで</p>
+                 <select class="form-control time" name="時まで">
+                  <option>選択してください</option>
+                  <option value="10時まで">10時まで</option>
+                  <option value="11時まで">11時まで</option>
+                  <option value="12時まで">12時まで</option>
+                  <option value="13時まで">13時まで</option>
+                  <option value="14時まで">14時まで</option>
+                  <option value="15時まで">15時まで</option>
+                  <option value="16時まで">16時まで</option>
+                  <option value="17時まで">17時まで</option>
+                  <option value="18時まで">18時まで</option>
+                </select>
+              </div>
+            </td>
+          </tr>
+          <tr class="under2">
+            <th>作業希望日</th>
+            <td>
+                <label class="radio-inline">
+                  <input type="radio" name="作業希望日" id="inlineRadio1" value="平日"> 平日
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="作業希望日" id="inlineRadio2" value="土・日・祝"> 土・日・祝
+                </label>
+                <label class="radio-inline i">
+                  <input type="radio" name="i作業希望日" id="inlineRadio3" value="いつでも可"> いつでも可
+                </label>
+            </td>
+          </tr>
+          <tr>
+            <th>当サービスのご利用</th>
+            <td>
+                <label class="radio-inline">
+                  <input type="radio" name="当サービスのご利用" id="inlineRadio1" value="初めて"> 初めて
+                </label>
+                <label class="radio-inline i">
+                  <input type="radio" name="当サービスのご利用" id="inlineRadio2" value="２回目以降" > ２回目以降
+                </label>
+            </td>
+          </tr>
+      </tbody>
+    </table>
+    <input type="submit" class="btn btn-default" value="送信する" /><input type="reset" class="btn btn-default" value="リセット" />
+    </form>
+    </div>
+  </div>
+</main>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+       <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>

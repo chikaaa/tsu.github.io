@@ -1,0 +1,105 @@
+/*
+Theme Name: ki-heart
+Theme URI: http://i-b-c.jp/
+Description: 木ハートのサイト
+Version: 1.1
+Author: Tsuge
+Author URI: http://www.cajon.co.jp/
+*/
+.search{
+  margin: 60px 0px;
+  margin-left: 60px;
+}
+
+
+
+.history ul{
+  list-style-type: none;
+}
+
+.history a{
+  border-bottom: 2px dotted #664320;
+}
+
+.history h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search h4{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.history p{
+  color:#000000;
+  width: 100px;
+  float: left;
+}
+
+.history i{
+  color:#000000;
+  float: right;
+  margin-top: 6px;
+}
+.history li{
+  clear:both;
+  width: 200px;
+  margin: 0 auto;
+}
+.conts img{
+  margin: 20px 0px;
+}
+
+.contents{
+  margin-bottom: 80px;
+}
+
+.contents a{
+  color: #800000;
+}
+
+.contents a:hover{
+  color: #556b2f;
+  text-decoration: none;
+}
+
+.contents img{
+  width: 400px;
+  height: 300px;
+  padding-left: 0px;
+}
+
+@media (min-width: 400px) and (max-width: 992px){
+.search {
+  margin: 30px 10px;
+}
+
+.history li{
+  clear:both;
+  width: 200px;
+  margin: 0 auto;
+}
+.history ul{
+  padding-left: 0px;
+}
+.conts h2{
+  font-size: 20px;
+}
+.conts img{
+  margin: 30px 0px;
+}
+.contents img{
+  width: 260px;
+  height: 180px;
+  padding-left: 0px;
+}
+}
+
+@media (min-width: 660px) and (max-width: 992px){
+.contents img{
+  width: 400px;
+  height: 300px;
+  padding-left: 0px;
+}
+}

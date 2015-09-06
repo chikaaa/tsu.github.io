@@ -1,0 +1,157 @@
+/*
+Theme Name: ki-heart
+Theme URI: http://i-b-c.jp/
+Description: 木ハートのサイト
+Version: 1.1
+Author: Tsuge
+Author URI: http://www.cajon.co.jp/
+*/
+.Q1{
+  margin: 30px 60px;
+  float: left;
+}
+
+.row2{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Q1 button{
+  padding: 10px 30px;
+  border-radius: 0px;
+  background-color: #8ae68a;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.Q1 button:hover{
+  padding: 10px 30px;
+  border-radius: 0px;
+  background-color: #664320;
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.modal-content button{
+  padding: 10px 30px;
+  border-radius: 0px;
+  background-color: #8ae68a;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.modal-content button:hover{
+  padding: 10px 30px;
+  border-radius: 0px;
+  background-color: #664320;
+  color: #fff;
+  font-weight: 600;
+}
+
+.modal.fade{
+  width: 100%;
+  margin-left: 5px;
+}
+.modal-dialog{
+  width: 100%;
+  margin-left: 5px;
+}
+.modal-content{
+  border-radius: 0px;
+  width: 92%;
+  margin-left: 16px;
+}
+.modal-body{
+  width: 100%;
+  margin-left: 5px;
+}
+
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: #8ae68a;
+    color: #000000;
+}
+
+.container.white{
+  padding-top: 60px;
+}
+
+@media (min-width: 838px){
+.container {
+    width: 80%;
+ }
+}
+
+@media (min-width: 400px) and (max-width: 838px){
+.container {
+    width: 90%;
+  }
+.Q1{
+  margin-left: 5px;
+}
+
+.Q1 button{
+  width: 310px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 14px;
+  }
+
+.Q1 button:hover{
+  border-radius: 0px;
+  background-color: #664320;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 14px;
+  }
+
+.modal-content{
+  width: 90%;
+  margin-left: 16px;
+}
+
+.modal-content button{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.modal-content button:hover{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.modal-header button{
+  width: 30px;
+}
+
+.modal-header h4{
+  font-size: 14px;
+}
+
+.modal-body{
+  font-size: 12px;
+}
+
+.modal-footer button{
+  width: 60px;
+}
+}
